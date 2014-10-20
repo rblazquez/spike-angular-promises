@@ -1,0 +1,33 @@
+<table class="table movietable">
+    <tr>
+        <td><h3>Details for {{movie.name}}</h3></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Movie Title</td>
+        <td>{{movie.name}}</td>
+    </tr>
+    <tr>
+        <td>Estado</td>
+        <td>{{movie.status}}</td>
+    </tr>
+    <tr>
+        <td>Referencia</td>
+        <td>{{movie.movieRef}}</td>
+    </tr>
+    <tr>
+        <td>Categoria</td>
+        <td>{{movie.categoryId}}</td>
+    </tr>
+    <tr>
+        <td>Contrato</td>
+        <td>{{movie.contractId}}</td>
+    </tr>
+    <tr>
+        <td>Carátula</td>
+        <td>{{movie.cover}}</td>
+    </tr>
+</table>
+<div>
+    <a class="btn btn-primary" ui-sref="editMovie({id:movie._id})">Edit</a>
+</div>
